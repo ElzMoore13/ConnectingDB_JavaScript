@@ -1,0 +1,24 @@
+{
+  "name": "connectingdb_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lookup_people.js",
+  "dependencies": {
+    "knex": "^0.14.6",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MapleMocha/ConnectingDB_JavaScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MapleMocha/ConnectingDB_JavaScript/issues"
+  },
+  "homepage": "https://github.com/MapleMocha/ConnectingDB_JavaScript#readme"
+}
