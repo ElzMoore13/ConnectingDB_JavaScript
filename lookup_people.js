@@ -29,7 +29,7 @@ client.connect((err) => {
   if (err) {
     return console.error("Connect Error: ", err);
   }
-  client.query(`SELECT first_name || ' ' || last_name AS name, birthdate  FROM famous_people WHERE first_name = '${searchKey}'`, (err, results) => {
+  client.query(`SELECT first_name || ' ' || last_name AS name, birthdate  FROM famous_people WHERE first_name = '` + searchKey + `'`, (err, results) => {
     if (err) {
       return console.error("error running query: ", err);
     } else {
